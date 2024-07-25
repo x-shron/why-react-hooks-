@@ -3,12 +3,12 @@
 ## Hook 使用规则
 官方文档 [Hook 概览](https://react.docschina.org/docs/hooks-overview.html)中对于hooks规则叙述：
 
- - 只能在函数最外层调用 Hook。不要在循环、条件判断或者子函数中调用。
- - 只能在 React 的函数组件中调用 Hook。不要在其他 JavaScript 函数中调用。（还有一个地方可以调用 Hook —— 就是自定义的 Hook 中)
+> - 只能在函数最外层调用 Hook。不要在循环、条件判断或者子函数中调用。
+> - 只能在 React 的函数组件中调用 Hook。不要在其他 JavaScript 函数中调用。（还有一个地方可以调用 Hook —— 就是自定义的 Hook 中)
 
-我看了很多解释，但是一直都模模糊糊，一知半解的, 结合源码与视频学习部门。
+我看了很多解释，但是一直都模模糊糊，一知半解的, 结合源码与视频学习部分。
 
-通手动实现一个 useState 让我明白了，useState 的基本实现思路，从而明白了，为什么要顺序调用 Hook。
+通手动实现一个 useState的基本实现思路，从而明白了，为什么要顺序调用 Hook。
 
 ## 手动实现一个 useState
 
